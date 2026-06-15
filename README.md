@@ -1,8 +1,24 @@
-# Site Doctor
+# 🩺 Site Doctor
+
+> **One pass. Full diagnosis. Health, content, and SEO for any WordPress site.**
+
+![python](https://img.shields.io/badge/python-3.8+-3776AB?logo=python&logoColor=white) ![dependencies](https://img.shields.io/badge/dependencies-zero-00897B) ![output](https://img.shields.io/badge/output-HTML%20+%20CLI-467FF7) ![scope](https://img.shields.io/badge/scope-WordPress-21759B?logo=wordpress&logoColor=white) ![author](https://img.shields.io/badge/author-Marc%20C.%20Deller%2C%20D.Phil.-1C244B)
+
+<table>
+<tr>
+<td>🌐 <b>Website</b></td><td><a href="https://marcdeller.com" target="_blank" rel="noopener noreferrer">marcdeller.com</a></td>
+<td>✉️ <b>Contact</b></td><td><a href="mailto:marc@marcdeller.com">marc@marcdeller.com</a></td>
+<td>🐙 <b>GitHub</b></td><td><a href="https://github.com/bellcheddar/site-doctor" target="_blank" rel="noopener noreferrer">bellcheddar/site-doctor</a></td>
+</tr>
+</table>
+
+---
 
 A single-file, dependency-free Python 3 tool that diagnoses the health,
 content, and SEO/performance profile of a WordPress site — using only the
 standard library.
+
+Why it matters: keeping a WordPress site fast, secure, and well-indexed normally means juggling several separate tools (a header scanner, a TLS checker, a PageSpeed run, a content audit). Site Doctor folds all of that into a single dependency-free Python script that reads only public information and emits both a colour-coded terminal report and a branded, self-contained HTML report in one pass. It is useful for site owners, agencies, and developers who want a fast, repeatable, zero-install health check: ideal for pre-launch audits, ongoing maintenance, and verifying that caching, security headers, and Core Web Vitals are actually configured the way you think they are.
 
 It produces a color-coded report on screen **and** a branded HTML report
 on disk, in the same pass.
@@ -133,3 +149,18 @@ plugins, authentication, or scraping required.
 Site Doctor only reads publicly available information (HTTP responses, DNS
 records, and public REST API endpoints). Use it against sites you own or are
 authorized to test.
+
+---
+
+## 👤 Author
+
+**Marc C. Deller, D.Phil.**  
+Structural biologist & drug discovery scientist  
+
+<table>
+<tr>
+<td>🌐</td><td><a href="https://marcdeller.com" target="_blank" rel="noopener noreferrer">marcdeller.com</a></td>
+<td>✉️</td><td><a href="mailto:marc@marcdeller.com">marc@marcdeller.com</a></td>
+<td>🐙</td><td><a href="https://github.com/bellcheddar/site-doctor" target="_blank" rel="noopener noreferrer">github.com/bellcheddar/site-doctor</a></td>
+</tr>
+</table>
